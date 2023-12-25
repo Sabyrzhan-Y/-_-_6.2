@@ -2,10 +2,9 @@
 
 int main(void)
 {
-	int a, b, c;
-	int sum;
-	scanf("%d%d%d", &a, &b, &c);
-	sum = a + b + c;
-	printf("%d + %d + %d = %d\n", a, b, c, sum);
+	int x;
+	scanf("%d", &x);
+	float r = ((x/1000) + ((x % 1000) / 100) + ((x % 100) / 10) + (x % 10)) / 4.f;
+	printf("%.2f\n", r);
 	return 0;
 }
