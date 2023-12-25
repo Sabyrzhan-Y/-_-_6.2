@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	int a, n, f;
+	int a, b, c;
 	int sum;
-	scanf("%d%d%d", &a, &n, &f);
-	sum = a + n + f;
-	printf("%d\n", sum);
+	scanf("%d%d%d", &a, &b, &c);
+	sum = a + b + c;
+	printf("%d + %d + %d = %d\n", a, b, c, sum);
 	return 0;
 }
